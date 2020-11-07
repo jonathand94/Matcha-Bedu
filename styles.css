@@ -1,6 +1,6 @@
 @font-face {
 font-family: 'Roboto', sans-serif;
-src: url(https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap);
+
 }
 
 
@@ -47,6 +47,7 @@ h1 {
     color: #FF1493;
     font-size: 60px;
     text-align: center;
+    font-weight: 400;
     }
   
   h4 {
