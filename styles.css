@@ -85,6 +85,7 @@ h3 {
   line-height: 48px;
   padding-left: 15px;
   color: #FF1493;
+  text-align: left;
   }
 
 h4 {
@@ -96,9 +97,10 @@ p  {
   color: #46484c;
   text-align: center;
   font-size: 16px; 
+ 
   }
-
-.parrafo2 {
+ 
+  p > span  {
   color: #343434;
   font-size: 16px;
   line-height: 1.5;
@@ -106,6 +108,7 @@ p  {
   text-align: left;
   padding-left: 15px;
   }
+
   
 .button-home {
   background-color: #025157;
@@ -127,6 +130,10 @@ p  {
 form {
   text-align: center;    
   }
+
+.form1 {
+    text-align: left;    
+    }
 
 .images {
   margin-top: 40px;
@@ -156,7 +163,21 @@ form {
   margin-top: 10px;
   }
 
-.contenedor-video1a{
-  margin-left: 10px;
+.features {
+  display: grid;
+  grid-template-columns: 50% 50%; 
+  grid-template-rows: repeat(2, 330px);
+  background-color: #025157;
+  padding: 5% 10%;
   }
+
+.feature-card {
+  margin-bottom: 30px;
+  margin-left: 15px;
+  margin-right: 15px;
+  background-color: #fff;
+  border: 1px solid #dadada;
+  border-radius: 5px;
+  }
+
 
